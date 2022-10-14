@@ -13,4 +13,8 @@ export const OptionsButton = styled.button`
   width: 80px;
   color: rebeccapurple;
   text-transform: capitalize;
+  &:hover,
+  &:focus {
+    background-color: #914cd6;
+  }
 `;
