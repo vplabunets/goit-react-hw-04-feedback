@@ -1,6 +1,6 @@
 import React from 'react';
-import { OptionsWrap, OptionsButton } from './FeedBackOptions.styled';
 import PropTypes from 'prop-types';
+import { OptionsWrap, OptionsButton } from './FeedBackOptions.styled';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => (
   <OptionsWrap>
@@ -20,4 +20,3 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => (
 FeedbackOptions.propTypes = {
   options: PropTypes.array.isRequired,
 };
-//  onLeaveFeedback: PropTypes.function.isRequired

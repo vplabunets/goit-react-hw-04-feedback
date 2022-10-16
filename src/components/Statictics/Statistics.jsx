@@ -7,6 +7,7 @@ import {
   StatisticsText,
   StatisticsValue,
 } from './Statistics.styled';
+
 export const Statistics = ({
   good,
   neutral,

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const SectionWrap = styled.section`
+const SectionWrap = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,6 +8,8 @@ export const SectionWrap = styled.section`
   width: 300px;
 `;
 
-export const SectionTitle = styled.h2`
+const SectionTitle = styled.h2`
   text-align: center;
 `;
+
+export { SectionWrap, SectionTitle };
