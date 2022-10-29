@@ -41,7 +41,6 @@ export const FeedBack = () => {
     }
   };
 
-  // const { good, neutral, bad } = this.state;
   return (
     <>
       <Section title={'Please live your feedback'}>
